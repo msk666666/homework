@@ -14,7 +14,7 @@
       <file leaf-file-name="UrlTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day18/src/CrawlDemo/UrlTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
+            <state relative-caret-position="-2180">
               <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -51,7 +51,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="345" />
     <option name="y" value="197" />
     <option name="width" value="1565" />
@@ -207,16 +207,15 @@
       <updated>1543206206049</updated>
       <workItem from="1543206209952" duration="7751000" />
       <workItem from="1543275137942" duration="11263000" />
-      <workItem from="1543287549024" duration="1827000" />
+      <workItem from="1543287549024" duration="2127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20841000" />
+    <option name="totallyTimeSpent" value="21141000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -342,7 +341,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day18/src/CrawlDemo/UrlTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
+        <state relative-caret-position="-2180">
           <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
