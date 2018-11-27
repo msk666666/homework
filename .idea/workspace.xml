@@ -14,8 +14,8 @@
       <file leaf-file-name="UrlTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day18/src/CrawlDemo/UrlTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+            <state relative-caret-position="-2">
+              <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,6 +37,7 @@
       <list>
         <option value="$PROJECT_DIR$/day18/src/CrawlDemo/RegTest.java" />
         <option value="$PROJECT_DIR$/day18/src/CrawlDemo/CrawlImg.java" />
+        <option value="$PROJECT_DIR$/day18/.gitignore" />
         <option value="$PROJECT_DIR$/day18/src/CrawlDemo/UrlTest.java" />
       </list>
     </option>
@@ -51,9 +52,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="285" />
-    <option name="y" value="150" />
-    <option name="width" value="1440" />
+    <option name="x" value="345" />
+    <option name="y" value="197" />
+    <option name="width" value="1565" />
     <option name="height" value="780" />
   </component>
   <component name="ProjectView">
@@ -61,8 +62,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,11 +74,26 @@
               <item name="day18" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day18" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CrawlDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day18" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CrawlDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="UrlTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,15 +206,17 @@
       <option name="presentableId" value="Default" />
       <updated>1543206206049</updated>
       <workItem from="1543206209952" duration="7751000" />
-      <workItem from="1543275137942" duration="9485000" />
+      <workItem from="1543275137942" duration="11263000" />
+      <workItem from="1543287549024" duration="1827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17236000" />
+    <option name="totallyTimeSpent" value="20841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -211,25 +227,25 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5188953" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8226744" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13476562" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +255,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/day18/day18.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/day18/src/CrawlDemo/UrlTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
@@ -249,16 +268,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day18/src/CrawlDemo/RegTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day18/src/CrawlDemo/RegTest.java" />
     <entry file="jar://D:/JDK/src.zip!/java/net/URL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15081">
@@ -280,49 +290,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day18/day18.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day18/src/CrawlDemo/RegTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="96" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/6.jpg" />
+    <entry file="file://$PROJECT_DIR$/7.jpg" />
+    <entry file="file://$PROJECT_DIR$/8.jpg" />
+    <entry file="file://$PROJECT_DIR$/9.jpg" />
+    <entry file="file://$PROJECT_DIR$/10.jpg" />
+    <entry file="file://$PROJECT_DIR$/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/2.jpg" />
+    <entry file="file://$PROJECT_DIR$/5.jpg" />
+    <entry file="file://$PROJECT_DIR$/4.jpg" />
+    <entry file="file://$PROJECT_DIR$/3.jpg" />
+    <entry file="file://$PROJECT_DIR$/day18/src/CrawlDemo/RegTest.java" />
     <entry file="jar://D:/JDK/src.zip!/java/io/FileOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -333,27 +311,10 @@
     <entry file="file://$PROJECT_DIR$/day18/imgDir/244d510fd9f9d72abbf0137bd52a2834359bbbc5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/day18/imgDir/eb38b6003af33a8700cc037cc75c10385343b530.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day18/src/CrawlDemo/CrawlImg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="30" selection-start-line="30" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day18/imgDir/6bfab2fb43166d228b3c16f2472309f79052d20a.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day18/imgDir/sign=629e16fo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3762" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day18/imgDir/eb38b6003af33a8700cc037cc75c10385343b530.jpg" />
+    <entry file="file://$PROJECT_DIR$/day18/src/CrawlDemo/CrawlImg.java" />
+    <entry file="file://$PROJECT_DIR$/day18/imgDir/6bfab2fb43166d228b3c16f2472309f79052d20a.jpg" />
+    <entry file="file://$PROJECT_DIR$/day18/imgDir/sign=629e16fo" />
     <entry file="file://$PROJECT_DIR$/day18/imgDir/8ddf9c82d158ccbf49c9c65c18d8bc3eb135415b.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -369,10 +330,20 @@
     <entry file="file://$PROJECT_DIR$/day18/imgDir/f51249540923dd5475e6d30ed009b3de9c82483b.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/day18/day18.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day18/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day18/src/CrawlDemo/UrlTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+        <state relative-caret-position="-2">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

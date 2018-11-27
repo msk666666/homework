@@ -28,7 +28,6 @@ public class UrlTest {
         ArrayBlockingQueue<String> urlArray = new ArrayBlockingQueue<>(3);
         InputStream in = getHTML(webUrl);
         new Geturl("Pro1",urlArray,webUrl,in).start();
-        new Geturl("Pro2",urlArray,webUrl,in).start();
         new DownloadImg("Con1",urlArray,dirPath).start();
         new DownloadImg("Con2",urlArray,dirPath).start();
     }
@@ -50,7 +49,7 @@ class Geturl extends Thread{
     @Override
     public void run() {
         try {
-            getUrl(link,in);
+            getUrl(in);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (InterruptedException e) {
@@ -58,7 +57,7 @@ class Geturl extends Thread{
         }
     }
     //爬取的图片url
-    public synchronized void getUrl(String link,InputStream in) throws IOException, InterruptedException {
+    public synchronized void getUrl(InputStream in) throws IOException, InterruptedException {
         //抓取网页中的图片链接
         Pattern p = Pattern.compile("<img class=\\\"BDE_Image\\\" src=\\\"(.*?)\\\"");
         BufferedReader buffReader = new BufferedReader(new InputStreamReader(in));
@@ -69,8 +68,9 @@ class Geturl extends Thread{
                 while (m.find()){
                     //将匹配到的url加入阻塞队列，如果队列已满则阻塞
                     abq.put(m.group(1));
+                    System.out.println(Thread.currentThread().getName()+"爬取图片url完成");
                 }
-                System.out.println(Thread.currentThread().getName()+"爬取图片url完成");
+
             }
         }
         buffReader.close();
@@ -92,7 +92,6 @@ class DownloadImg extends Thread{
         while (true){
             try {
                 downloadimg(path);
-                System.out.println(Thread.currentThread().getName()+"下载图片完成");
             } catch (IOException e) {
                 e.printStackTrace();
             } catch (InterruptedException e) {
@@ -104,6 +103,7 @@ class DownloadImg extends Thread{
     public synchronized void downloadimg(String path) throws IOException, InterruptedException {
         //从阻塞队列中拿出url，如果为空则阻塞
         String url=abq.take();
+        System.out.println(Thread.currentThread().getName()+"下载图片完成");
         HttpURLConnection imgurl =(HttpURLConnection)new URL(url).openConnection();
         InputStream imgin = imgurl.getInputStream();
         String imgPath=path+"\\"+url.substring(url.lastIndexOf("/") + 1);
