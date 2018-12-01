@@ -70,7 +70,6 @@ class Geturl extends Thread{
                     abq.put(m.group(1));
                     System.out.println(Thread.currentThread().getName()+"爬取图片url完成");
                 }
-
             }
         }
         buffReader.close();
