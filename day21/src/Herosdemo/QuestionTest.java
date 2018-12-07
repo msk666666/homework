@@ -24,7 +24,7 @@ public class QuestionTest {
         }).collect(Collectors.toList());
 
 
-//        按出生地分组
+////        按出生地分组
         groupCity(heros);
         System.out.println("--------");
         //武力排行前三
@@ -45,6 +45,9 @@ public class QuestionTest {
         //统计city
         tongjiCity(heros);
 
+
+
+
     }
 
     private static void tongjiCity(List<Heros> heros) {
@@ -57,17 +60,19 @@ public class QuestionTest {
     }
 
     private static void groupWuli(List<Heros> heros) {
-        System.out.println("小于70"+heros.stream().filter(h->h.getWuli()<70).collect(Collectors.toList()));
-        System.out.println("70~79"+heros.stream().filter(h->70<=h.getWuli()&&h.getWuli()<=79).collect(Collectors.toList()));
-        System.out.println("80~89"+heros.stream().filter(h->80<=h.getWuli()&&h.getWuli()<=89).collect(Collectors.toList()));
-        System.out.println("大于90"+heros.stream().filter(h->h.getWuli()>=90).collect(Collectors.toList()));
+        System.out.println(heros.stream().collect(Collectors.groupingBy(h->rangeWuli(h.getWuli()))));
+//        System.out.println("小于70"+heros.stream().filter(h->h.getWuli()<70).collect(Collectors.toList()));
+//        System.out.println("70~79"+heros.stream().filter(h->70<=h.getWuli()&&h.getWuli()<=79).collect(Collectors.toList()));
+//        System.out.println("80~89"+heros.stream().filter(h->80<=h.getWuli()&&h.getWuli()<=89).collect(Collectors.toList()));
+//        System.out.println("大于90"+heros.stream().filter(h->h.getWuli()>=90).collect(Collectors.toList()));
     }
 
     private static void groupAge(List<Heros> heros) {
-        System.out.println("小于20"+heros.stream().filter(h->0<=h.getDie()-h.getBirth()&&h.getDie()-h.getBirth()<=20).collect(Collectors.toList()));
-        System.out.println("20~40"+heros.stream().filter(h->21<=h.getDie()-h.getBirth()&&h.getDie()-h.getBirth()<=40).collect(Collectors.toList()));
-        System.out.println("40~60"+heros.stream().filter(h->41<=h.getDie()-h.getBirth()&&h.getDie()-h.getBirth()<=60).collect(Collectors.toList()));
-        System.out.println("大于60"+heros.stream().filter(h->h.getDie()-h.getBirth()>=60).collect(Collectors.toList()));
+        System.out.println(heros.stream().collect(Collectors.groupingBy(h->rangeAge((h.getDie()-h.getBirth())))));
+//        System.out.println("小于20"+heros.stream().filter(h->0<=h.getDie()-h.getBirth()&&h.getDie()-h.getBirth()<=20).collect(Collectors.toList()));
+//        System.out.println("20~40"+heros.stream().filter(h->21<=h.getDie()-h.getBirth()&&h.getDie()-h.getBirth()<=40).collect(Collectors.toList()));
+//        System.out.println("40~60"+heros.stream().filter(h->41<=h.getDie()-h.getBirth()&&h.getDie()-h.getBirth()<=60).collect(Collectors.toList()));
+//        System.out.println("大于60"+heros.stream().filter(h->h.getDie()-h.getBirth()>=60).collect(Collectors.toList()));
     }
 
     private static void femaleLongLife(List<Heros> heros) {
@@ -89,5 +94,29 @@ public class QuestionTest {
 
     private static void groupCity(List<Heros> heros) {
         System.out.println(heros.stream().collect(Collectors.groupingBy(hero->hero.getCity())));
+    }
+    private static String rangeAge(int age){
+        if(age>=0&&age<=20){
+            return "0~20";
+        }else if(age>=21&&age<=40){
+            return "21~40";
+        }else if(age>=41&&age<=60){
+            return "41~60";
+        }else if(age>=60){
+            return "大于60";
+        }
+        return null;
+    }
+    private static String rangeWuli(int Wuli){
+        if(Wuli<70){
+            return "小于七十";
+        }else if(Wuli>=70&&Wuli<=79){
+            return "70~79";
+        }else if(Wuli>=80&&Wuli<=89){
+            return "80~89";
+        }else if(Wuli>=90){
+            return "大于90";
+        }
+        return null;
     }
 }

@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DigTreasure.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TreasureDemo/DigTreasure.java">
+      <file leaf-file-name="QuestionTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Herosdemo/QuestionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="361">
+              <caret line="48" column="100" selection-start-line="48" selection-start-column="100" selection-end-line="48" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,6 +33,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>age</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Wuli</replace>
+    </replaceStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -40,6 +48,7 @@
         <option value="$PROJECT_DIR$/src/Herosdemo/Treasure.java" />
         <option value="$PROJECT_DIR$/src/TreasureDemo/ClassLoaderTest.java" />
         <option value="$PROJECT_DIR$/src/TreasureDemo/DigTreasure.java" />
+        <option value="$PROJECT_DIR$/src/Herosdemo/QuestionTest.java" />
       </list>
     </option>
   </component>
@@ -53,8 +62,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+    <option name="x" value="562" />
+    <option name="y" value="102" />
     <option name="width" value="1290" />
     <option name="height" value="710" />
   </component>
@@ -63,8 +72,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,6 +101,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DigTreasure">
+  <component name="RunManager" selected="Application.QuestionTest">
     <configuration name="DigTreasure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TreasureDemo.DigTreasure" />
       <module name="day21" />
@@ -139,6 +148,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TreasureDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="QuestionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Herosdemo.QuestionTest" />
+      <module name="day21" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Herosdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,9 +218,11 @@
     <list>
       <item itemvalue="Application.DigTreasure" />
       <item itemvalue="Application.Treasure" />
+      <item itemvalue="Application.QuestionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuestionTest" />
         <item itemvalue="Application.DigTreasure" />
         <item itemvalue="Application.Treasure" />
       </list>
@@ -218,15 +240,17 @@
       <updated>1543763401262</updated>
       <workItem from="1543763404256" duration="187000" />
       <workItem from="1544084671315" duration="7201000" />
-      <workItem from="1544106440808" duration="3071000" />
+      <workItem from="1544106440808" duration="3675000" />
+      <workItem from="1544163546422" duration="999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10459000" />
+    <option name="totallyTimeSpent" value="12062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -242,7 +266,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14713542" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -265,6 +289,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/TreasureDemo/DigTreasure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Treasure.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5808">
@@ -321,17 +355,7 @@
     <entry file="file://$PROJECT_DIR$/out/production/day21/TreasureDemo/DigTreasure.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Herosdemo/Treasure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="133" column="9" lean-forward="true" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
-          <folding>
-            <element signature="e#5425#5426#0" expanded="true" />
-            <element signature="e#5468#5469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Herosdemo/Treasure.java" />
     <entry file="file://$PROJECT_DIR$/Treasure.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -339,23 +363,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TreasureDemo/ClassLoaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-363">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Herosdemo/QuestionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="73" column="79" lean-forward="true" selection-start-line="73" selection-start-column="79" selection-end-line="73" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreasureDemo/ClassLoaderTest.java" />
     <entry file="file://$PROJECT_DIR$/day21.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -363,6 +371,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Herosdemo/QuestionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="48" column="100" selection-start-line="48" selection-start-column="100" selection-end-line="48" selection-end-column="100" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
