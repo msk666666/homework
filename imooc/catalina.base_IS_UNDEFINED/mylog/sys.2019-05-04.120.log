@@ -1,0 +1,64 @@
+2019-05-04 17:37:02,433 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-04 17:37:02,433 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 5000.0(Double), 1(Integer), 0(Integer), 2019-05-04 17:37:02.404(Timestamp)
+2019-05-04 17:37:02,440 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:37:02,441 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 17:37:02,441 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-04 17:37:02,464 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-04 17:37:02,466 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-04 17:37:02,466 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-04 17:37:02,467 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-04 17:37:02,467 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-04 17:37:02,467 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 282(Long), 1(Long)
+2019-05-04 17:37:02,467 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:37:02,467 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-04 17:37:02,467 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 280(Long), 1(Long)
+2019-05-04 17:37:02,467 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 281(Long), 1(Long)
+2019-05-04 17:37:02,468 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 17:37:02,468 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-04 17:37:02,468 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:37:02,469 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0
+2019-05-04 17:37:02,469 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-04 17:37:02,469 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:37:02,469 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 17:37:02,470 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-04 17:37:02,470 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:37:02,470 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0
+2019-05-04 17:37:02,470 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-05-04 17:37:02,470 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 5000.0(Double), 1(Integer), 0(Integer), 2019-05-04 17:37:02.469(Timestamp)
+2019-05-04 17:37:02,504 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-04 17:37:02,505 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-05-04 17:37:02,505 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:37:02,505 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 5000.0(Double), 1(Integer), 0(Integer), 2019-05-04 17:37:02.47(Timestamp)
+2019-05-04 17:37:02,505 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-04 17:37:02,505 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-04 17:37:02,506 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-04 17:37:02,506 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0
+2019-05-04 17:37:02,506 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-05-04 17:37:02,506 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-04 17:37:02,507 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 283(Long), 1(Long)
+2019-05-04 17:37:02,507 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 5000.0(Double), 1(Integer), 0(Integer), 2019-05-04 17:37:02.506(Timestamp)
+2019-05-04 17:37:02,506 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 284(Long), 1(Long)
+2019-05-04 17:37:02,527 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-04 17:37:02,528 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-04 17:37:02,528 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:37:02,528 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-04 17:37:02,529 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-04 17:37:02,533 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 285(Long), 1(Long)
+2019-05-04 17:37:02,533 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:37:02,533 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 17:37:02,534 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-04 17:37:02,534 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:37:02,535 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-04 17:37:02,535 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 17:37:02,535 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:37:02,535 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 17:37:02,535 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-04 17:37:02,535 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:37:02,536 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0
+2019-05-04 17:37:02,536 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-04 17:37:02,536 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:37:02,536 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-05-04 17:37:02,536 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0
+2019-05-04 17:37:02,536 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 5000.0(Double), 1(Integer), 0(Integer), 2019-05-04 17:37:02.536(Timestamp)
+2019-05-04 17:37:02,536 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0
+2019-05-04 17:37:02,536 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 

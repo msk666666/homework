@@ -1,0 +1,21 @@
+2019-05-05 10:17:18,120 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 10:17:18,235 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:17:18,415 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 10:17:19,003 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:17:18,415 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 10:17:18,405 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:17:18,404 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 10:17:18,275 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:17:18,266 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:17:19,163 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-05 10:17:19,255 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:17:19,195 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-05 10:17:19,257 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:17:19,194 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-05 10:17:19,259 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:17:19,496 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 10:17:19,520 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-05 10:17:19,520 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 10:17:19,521 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:17:19,527 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 10:17:19,561 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

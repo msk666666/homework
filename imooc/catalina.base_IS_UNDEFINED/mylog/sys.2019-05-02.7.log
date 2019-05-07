@@ -1,0 +1,10 @@
+2019-05-02 19:45:47,710 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from order_info where user_id=? and goods_id=? 
+2019-05-02 19:45:47,716 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 2(Long)
+2019-05-02 19:45:47,718 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-02 19:45:47,719 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-02 19:45:47,720 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2(Long)
+2019-05-02 19:45:47,783 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-02 19:45:47,784 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-05-02 19:45:47,787 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 2(Long), 1(Long), HuaWei Nova(String), 1(Integer), 1100.0(Double), 1(Integer), 0(Integer), 2019-05-02 19:45:47.784(Timestamp)
+2019-05-02 19:45:47,833 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-02 19:45:47,834 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 

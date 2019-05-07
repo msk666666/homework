@@ -1,0 +1,16 @@
+2019-05-04 17:52:04,459 INFO (MQSender.java:23)- Send{"goodsId":1,"mobileUser":{"head":"ll","id":1,"lastLoginDate":1554168759000,"loginCount":1,"nickname":"13152089953","password":"c5238144341f62c6afd57c0d08922a94","registerDate":1554168755000,"salt":"1a2b3c4d"}}
+2019-05-04 17:52:04,466 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:52:04,480 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:52:04,484 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 17:52:04,485 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-04 17:52:04,486 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:52:04,479 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:52:04,489 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-04 17:52:04,485 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:52:04,489 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:52:04,492 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:52:04,494 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:52:04,498 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 17:52:04,500 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 17:52:04,516 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 17:52:04,518 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

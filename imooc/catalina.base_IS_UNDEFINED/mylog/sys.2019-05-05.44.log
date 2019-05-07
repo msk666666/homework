@@ -1,0 +1,15 @@
+2019-05-05 10:56:08,178 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 10:56:08,195 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-05 10:56:08,196 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1483(Long), 1(Long)
+2019-05-05 10:56:08,185 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 10:56:08,179 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 10:56:08,201 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 10:56:08,180 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:56:08,214 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 10:56:08,204 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:56:08,205 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-05 10:56:08,222 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 10:56:08,224 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:56:08,228 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:56:08,232 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 10:56:08,232 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)

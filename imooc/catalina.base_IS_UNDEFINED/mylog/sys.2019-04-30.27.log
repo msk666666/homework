@@ -1,0 +1,8 @@
+2019-04-30 09:41:16,118 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-04-30 09:41:16,127 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? 
+2019-04-30 09:41:16,128 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-04-30 09:41:16,151 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-04-30 09:41:16,152 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-04-30 09:41:16,153 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 3762.0(Double), 1(Integer), 0(Integer), 2019-04-30 09:41:16.151(Timestamp)
+2019-04-30 09:41:16,189 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-04-30 09:41:16,191 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 

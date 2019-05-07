@@ -1,0 +1,18 @@
+2019-04-29 15:50:10,358 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 3762.0(Double), 1(Integer), 0(Integer), 2019-04-29 15:50:10.354(Timestamp)
+2019-04-29 15:50:10,381 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-04-29 15:50:10,383 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-04-29 15:50:10,384 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long)
+2019-04-29 15:50:10,397 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-04-29 15:50:10,398 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-04-29 15:50:10,400 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long)
+2019-04-29 15:50:10,442 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-04-29 15:50:10,460 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-04-29 15:50:10,523 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from order_info where id=? 
+2019-04-29 15:50:10,524 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 12(Long)
+2019-04-29 15:50:10,526 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-04-29 15:50:10,527 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-04-29 15:50:10,527 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-04-29 15:50:10,530 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-04-29 15:56:44,865 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 14548 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-04-29 15:56:44,869 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 15:56:44,870 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

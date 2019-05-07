@@ -1,0 +1,16 @@
+2019-05-03 08:41:13,613 INFO (MQSender.java:23)- Send{"goodsId":1,"mobileUser":{"head":"ll","id":1,"lastLoginDate":1554168759000,"loginCount":1,"nickname":"13152089953","password":"c5238144341f62c6afd57c0d08922a94","registerDate":1554168755000,"salt":"1a2b3c4d"}}
+2019-05-03 08:41:13,692 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-03 08:41:13,657 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-03 08:41:14,030 INFO (MQSender.java:23)- Send{"goodsId":1,"mobileUser":{"head":"ll","id":1,"lastLoginDate":1554168759000,"loginCount":1,"nickname":"13152089953","password":"c5238144341f62c6afd57c0d08922a94","registerDate":1554168755000,"salt":"1a2b3c4d"}}
+2019-05-03 08:41:13,727 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-03 08:41:14,036 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from miaosha_order where user_id=? and goods_id=? 
+2019-05-03 08:41:14,036 INFO (MQSender.java:23)- Send{"goodsId":1,"mobileUser":{"head":"ll","id":1,"lastLoginDate":1554168759000,"loginCount":1,"nickname":"13152089953","password":"c5238144341f62c6afd57c0d08922a94","registerDate":1554168755000,"salt":"1a2b3c4d"}}
+2019-05-03 08:41:14,037 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-05-03 08:41:13,643 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-05-03 08:41:13,637 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from miaosha_order where user_id=? and goods_id=? 
+2019-05-03 08:41:13,633 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from miaosha_order where user_id=? and goods_id=? 
+2019-05-03 08:41:13,630 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-05-03 08:41:13,615 INFO (MQSender.java:23)- Send{"goodsId":1,"mobileUser":{"head":"ll","id":1,"lastLoginDate":1554168759000,"loginCount":1,"nickname":"13152089953","password":"c5238144341f62c6afd57c0d08922a94","registerDate":1554168755000,"salt":"1a2b3c4d"}}
+2019-05-03 08:41:14,032 INFO (MQSender.java:23)- Send{"goodsId":1,"mobileUser":{"head":"ll","id":1,"lastLoginDate":1554168759000,"loginCount":1,"nickname":"13152089953","password":"c5238144341f62c6afd57c0d08922a94","registerDate":1554168755000,"salt":"1a2b3c4d"}}
+2019-05-03 08:41:14,032 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from miaosha_order where user_id=? and goods_id=? 
+2019-05-03 08:41:14,080 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0

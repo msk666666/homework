@@ -1,0 +1,20 @@
+2019-05-05 11:58:33,331 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:58:33,338 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=? where goods_id=? 
+2019-05-05 11:58:33,339 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer), 2(Long)
+2019-05-05 11:58:33,360 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:58:33,366 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: delete from order_info 
+2019-05-05 11:58:33,368 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-05 11:58:33,369 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0
+2019-05-05 11:58:33,370 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: delete from miaosha_order 
+2019-05-05 11:58:33,371 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-05 11:58:33,373 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0
+2019-05-05 11:58:45,113 INFO (MQSender.java:23)- SendMiaoShaMessage(mobileUser=MobileUser(id=1, nickname=13152089953, password=c5238144341f62c6afd57c0d08922a94, salt=1a2b3c4d, head=ll, registerDate=Tue Apr 02 09:32:35 CST 2019, lastLoginDate=Tue Apr 02 09:32:39 CST 2019, loginCount=1), goodsId=1)
+2019-05-05 11:58:45,114 INFO (MQSender.java:23)- SendMiaoShaMessage(mobileUser=MobileUser(id=1, nickname=13152089953, password=c5238144341f62c6afd57c0d08922a94, salt=1a2b3c4d, head=ll, registerDate=Tue Apr 02 09:32:35 CST 2019, lastLoginDate=Tue Apr 02 09:32:39 CST 2019, loginCount=1), goodsId=1)
+2019-05-05 11:58:45,115 INFO (MQSender.java:23)- SendMiaoShaMessage(mobileUser=MobileUser(id=1, nickname=13152089953, password=c5238144341f62c6afd57c0d08922a94, salt=1a2b3c4d, head=ll, registerDate=Tue Apr 02 09:32:35 CST 2019, lastLoginDate=Tue Apr 02 09:32:39 CST 2019, loginCount=1), goodsId=1)
+2019-05-05 11:58:45,119 INFO (MQSender.java:23)- SendMiaoShaMessage(mobileUser=MobileUser(id=1, nickname=13152089953, password=c5238144341f62c6afd57c0d08922a94, salt=1a2b3c4d, head=ll, registerDate=Tue Apr 02 09:32:35 CST 2019, lastLoginDate=Tue Apr 02 09:32:39 CST 2019, loginCount=1), goodsId=1)
+2019-05-05 11:58:45,328 INFO (MQSender.java:23)- SendMiaoShaMessage(mobileUser=MobileUser(id=1, nickname=13152089953, password=c5238144341f62c6afd57c0d08922a94, salt=1a2b3c4d, head=ll, registerDate=Tue Apr 02 09:32:35 CST 2019, lastLoginDate=Tue Apr 02 09:32:39 CST 2019, loginCount=1), goodsId=1)
+2019-05-05 11:58:45,120 INFO (MQSender.java:23)- SendMiaoShaMessage(mobileUser=MobileUser(id=1, nickname=13152089953, password=c5238144341f62c6afd57c0d08922a94, salt=1a2b3c4d, head=ll, registerDate=Tue Apr 02 09:32:35 CST 2019, lastLoginDate=Tue Apr 02 09:32:39 CST 2019, loginCount=1), goodsId=1)
+2019-05-05 11:58:45,125 INFO (MQSender.java:23)- SendMiaoShaMessage(mobileUser=MobileUser(id=1, nickname=13152089953, password=c5238144341f62c6afd57c0d08922a94, salt=1a2b3c4d, head=ll, registerDate=Tue Apr 02 09:32:35 CST 2019, lastLoginDate=Tue Apr 02 09:32:39 CST 2019, loginCount=1), goodsId=1)
+2019-05-05 11:58:45,126 INFO (MQSender.java:23)- SendMiaoShaMessage(mobileUser=MobileUser(id=1, nickname=13152089953, password=c5238144341f62c6afd57c0d08922a94, salt=1a2b3c4d, head=ll, registerDate=Tue Apr 02 09:32:35 CST 2019, lastLoginDate=Tue Apr 02 09:32:39 CST 2019, loginCount=1), goodsId=1)
+2019-05-05 11:58:45,552 INFO (MQSender.java:23)- SendMiaoShaMessage(mobileUser=MobileUser(id=1, nickname=13152089953, password=c5238144341f62c6afd57c0d08922a94, salt=1a2b3c4d, head=ll, registerDate=Tue Apr 02 09:32:35 CST 2019, lastLoginDate=Tue Apr 02 09:32:39 CST 2019, loginCount=1), goodsId=1)
+2019-05-05 11:58:45,557 INFO (MQSender.java:23)- SendMiaoShaMessage(mobileUser=MobileUser(id=1, nickname=13152089953, password=c5238144341f62c6afd57c0d08922a94, salt=1a2b3c4d, head=ll, registerDate=Tue Apr 02 09:32:35 CST 2019, lastLoginDate=Tue Apr 02 09:32:39 CST 2019, loginCount=1), goodsId=1)

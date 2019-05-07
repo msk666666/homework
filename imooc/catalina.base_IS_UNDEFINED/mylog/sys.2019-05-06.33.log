@@ -1,0 +1,9 @@
+2019-05-06 12:33:57,586 INFO (MQSender.java:23)- SendMiaoShaMessage(mobileUser=MobileUser(id=9, nickname=18292953467, password=c5238144341f62c6afd57c0d08922a94, salt=1a2b3c4d, head=null, registerDate=Mon May 06 10:41:37 CST 2019, lastLoginDate=Mon May 06 12:33:38 CST 2019, loginCount=4), goodsId=1)
+2019-05-06 12:33:57,684 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select stock_count from miaosha_goods where goods_id=? 
+2019-05-06 12:33:57,686 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-06 12:33:57,688 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-06 12:33:57,690 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-06 12:33:57,691 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-06 12:33:57,693 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-06 12:33:57,735 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-06 12:33:57,735 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)

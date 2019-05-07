@@ -1,0 +1,19 @@
+2019-05-05 10:53:13,149 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-05 10:53:13,188 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1482(Long), 1(Long)
+2019-05-05 10:53:13,385 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 10:53:13,387 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 10:53:13,386 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 10:53:13,398 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-05 10:53:13,398 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-05 10:53:13,401 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1478(Long), 1(Long)
+2019-05-05 10:53:13,386 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 10:53:13,388 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-05 10:53:13,424 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1477(Long), 1(Long)
+2019-05-05 10:53:13,388 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-05 10:53:13,388 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 10:53:13,450 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-05 10:53:13,454 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1481(Long), 1(Long)
+2019-05-05 10:53:13,398 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-05 10:53:13,456 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1479(Long), 1(Long)
+2019-05-05 10:53:13,398 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1480(Long), 1(Long)
+2019-05-05 10:53:13,480 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1473(Long), 1(Long)

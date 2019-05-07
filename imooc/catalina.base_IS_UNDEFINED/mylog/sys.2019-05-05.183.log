@@ -1,0 +1,11 @@
+2019-05-05 17:49:54,021 INFO (MiaoShaController.java:179)- ***************0
+2019-05-05 17:49:54,179 INFO (MiaoShaController.java:179)- ***************0
+2019-05-05 17:49:54,340 INFO (MiaoShaController.java:179)- ***************0
+2019-05-05 17:49:54,492 INFO (MiaoShaController.java:179)- ***************0
+2019-05-05 17:49:54,668 INFO (MiaoShaController.java:179)- ***************0
+2019-05-05 17:49:54,843 INFO (MiaoShaController.java:179)- ***************0
+2019-05-05 17:49:55,021 INFO (MiaoShaController.java:179)- ***************0
+2019-05-05 17:49:55,171 INFO (MiaoShaController.java:179)- ***************0
+2019-05-05 17:51:57,861 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 10732 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-05-05 17:51:57,864 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-05 17:51:57,865 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

@@ -1,0 +1,10 @@
+2019-05-01 15:36:19,202 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-01 15:36:19,210 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from order_info where user_id=? and goods_id=? 
+2019-05-01 15:36:19,210 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 2(Long)
+2019-05-01 15:36:19,212 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-01 15:36:19,213 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? 
+2019-05-01 15:36:19,213 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2(Long)
+2019-05-01 15:36:19,264 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-01 15:36:19,265 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-05-01 15:36:19,267 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 2(Long), 1(Long), HuaWei Nova(String), 1(Integer), 1100.0(Double), 1(Integer), 0(Integer), 2019-05-01 15:36:19.265(Timestamp)
+2019-05-01 15:36:19,304 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1

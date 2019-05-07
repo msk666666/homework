@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.OrderMapper">
+    <select id="getOrderInfoByUserIdAndGoodsId" resultType="com.example.demo.domain.MiaoshaOrder">
+        select * from miaosha_order where user_id=#{userId} and goods_id=#{goodsId}
+    </select>
+
+    <insert id="insertOrder"  keyColumn="id" useGeneratedKeys="true" keyProperty="id"  parameterType="com.example.demo.vo.OrderInfoVo">
+      insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price,
+      order_channel,status,create_date)
+      values (#{userId},#{goodsId},#{deliveryAddrId},#{goodsName},#{goodsCount},#{goodsPrice},#{orderChannel},#{status},
+      #{createDate})
+    </insert>
+    <insert id="insertMiaoShaOrder" parameterType="com.example.demo.domain.MiaoshaOrder">
+        insert into miaosha_order (user_id,order_id,goods_id) values (#{userId},#{orderId},#{goodsId})
+    </insert>
+    <select id="getOrderById" resultType="com.example.demo.domain.OrderInfo">
+        select * from order_info where id=#{orderId}
+    </select>
+
+    <delete id="deleteOrder">
+        delete from order_info
+    </delete>
+
+</mapper>
+
+

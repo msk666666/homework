@@ -1,0 +1,8 @@
+2019-04-30 23:18:22,480 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-04-30 23:19:02,858 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-04-30 23:19:02,860 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-04-30 23:19:02,864 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-04-30 23:19:17,338 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id,nickname,password,salt,head,register_date as registerDate, last_logindate as lastLoginDate,login_count as loginCount from miaosha_user where nickname=?; 
+2019-04-30 23:19:17,341 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 13152089953(String)
+2019-04-30 23:19:17,444 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-04-30 23:19:17,494 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id 

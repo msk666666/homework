@@ -1,0 +1,21 @@
+2019-05-04 15:19:14,545 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-04 15:19:15,287 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-05-04 15:19:14,540 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-04 15:19:15,314 INFO (MQSender.java:23)- Send{"goodsId":1,"mobileUser":{"head":"ll","id":1,"lastLoginDate":1554168759000,"loginCount":1,"nickname":"13152089953","password":"c5238144341f62c6afd57c0d08922a94","registerDate":1554168755000,"salt":"1a2b3c4d"}}
+2019-05-04 15:19:15,314 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-04 15:19:15,314 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-04 15:19:15,331 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 15:19:15,097 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-04 15:19:15,333 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 15:19:15,100 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 15:19:15,336 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from miaosha_order where user_id=? and goods_id=? 
+2019-05-04 15:19:15,337 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-05-04 15:19:15,338 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-04 15:19:15,338 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-04 15:19:15,102 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 15:19:15,317 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-04 15:19:15,339 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 15:19:15,329 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 15:19:15,343 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 15:19:15,330 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 15:19:15,422 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

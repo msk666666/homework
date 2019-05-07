@@ -1,0 +1,10 @@
+2019-05-05 16:51:55,381 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id 
+2019-05-05 16:51:55,417 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-05 16:51:55,444 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-05 16:51:56,333 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 5.753 seconds (JVM running for 6.529)
+2019-05-05 16:52:06,272 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 16:52:06,276 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 16:52:06,280 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 16:58:10,526 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 24980 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-05-05 16:58:10,535 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-05 16:58:10,536 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

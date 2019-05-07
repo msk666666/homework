@@ -1,0 +1,9 @@
+2019-05-05 22:16:20,508 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 5.746 seconds (JVM running for 6.594)
+2019-05-05 22:16:29,190 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id 
+2019-05-05 22:16:29,191 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-05 22:16:29,195 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-05 22:16:31,282 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 22:16:31,284 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 22:16:31,287 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 22:16:42,643 INFO (MQSender.java:23)- SendMiaoShaMessage(mobileUser=MobileUser(id=1, nickname=13152089953, password=c5238144341f62c6afd57c0d08922a94, salt=1a2b3c4d, head=ll, registerDate=Tue Apr 02 09:32:35 CST 2019, lastLoginDate=Tue Apr 02 09:32:39 CST 2019, loginCount=1), goodsId=1)
+2019-05-05 22:16:42,769 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select stock_count from miaosha_goods where goods_id=? 

@@ -1,0 +1,16 @@
+2019-05-04 17:56:22,353 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:56:22,354 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 17:56:22,353 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:56:22,353 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:56:22,363 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-04 17:56:22,363 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 17:56:22,364 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:56:22,364 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-04 17:56:22,528 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-04 17:56:22,528 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:56:22,531 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 17:56:22,531 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-04 17:56:22,532 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:56:22,365 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 17:56:22,529 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-05-04 17:56:22,533 INFO (MQSender.java:23)- Send{"goodsId":1,"mobileUser":{"head":"ll","id":1,"lastLoginDate":1554168759000,"loginCount":1,"nickname":"13152089953","password":"c5238144341f62c6afd57c0d08922a94","registerDate":1554168755000,"salt":"1a2b3c4d"}}

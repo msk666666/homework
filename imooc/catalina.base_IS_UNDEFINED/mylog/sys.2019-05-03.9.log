@@ -1,0 +1,18 @@
+2019-05-03 08:34:43,954 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-05-03 08:34:43,998 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-03 08:34:43,972 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from miaosha_order where user_id=? and goods_id=? 
+2019-05-03 08:34:43,963 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-03 08:34:43,955 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from miaosha_order where user_id=? and goods_id=? 
+2019-05-03 08:34:44,014 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from miaosha_order where user_id=? and goods_id=? 
+2019-05-03 08:34:44,038 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-05-03 08:34:44,043 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-05-03 08:34:44,043 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-05-03 08:34:44,141 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-03 08:34:44,570 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-03 08:34:44,571 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-03 08:34:44,636 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from miaosha_order where user_id=? and goods_id=? 
+2019-05-03 08:34:44,637 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-05-03 08:34:44,639 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-03 08:37:06,760 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 12572 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-05-03 08:37:06,762 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-03 08:37:06,763 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

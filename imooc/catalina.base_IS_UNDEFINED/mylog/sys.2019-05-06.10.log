@@ -1,0 +1,9 @@
+2019-05-06 10:18:02,968 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 5.702 seconds (JVM running for 6.451)
+2019-05-06 10:18:20,858 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id,nickname,password,salt,head,register_date as registerDate, last_logindate as lastLoginDate,login_count as loginCount from miaosha_user where nickname=?; 
+2019-05-06 10:18:20,860 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18292953467(String)
+2019-05-06 10:18:20,863 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-06 10:18:20,871 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_user (nickname,password,register_date) values (?,?,?) 
+2019-05-06 10:18:20,872 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18292953467(String), ab6bdbfc14d4ede92ec8ce12eee952b7(String), 2019-05-06 10:18:20.871(Timestamp)
+2019-05-06 10:18:20,903 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-06 10:21:12,737 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id,nickname,password,salt,head,register_date as registerDate, last_logindate as lastLoginDate,login_count as loginCount from miaosha_user where nickname=?; 
+2019-05-06 10:21:12,738 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18292953467(String)

@@ -1,0 +1,52 @@
+2019-05-05 11:26:09,325 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:26:09,548 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-05 11:26:09,550 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 11:26:09,585 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:26:09,586 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-05-05 11:26:09,588 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 5000.0(Double), 1(Integer), 0(Integer), 2019-05-05 11:26:09.586(Timestamp)
+2019-05-05 11:26:09,594 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:26:09,597 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-05 11:26:09,598 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1499(Long), 1(Long)
+2019-05-05 11:26:09,776 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-05 11:26:09,783 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-05 11:26:09,851 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 11:26:09,853 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 11:26:09,853 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:26:09,854 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-05-05 11:26:09,865 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 5000.0(Double), 1(Integer), 0(Integer), 2019-05-05 11:26:09.854(Timestamp)
+2019-05-05 11:26:09,866 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:26:09,867 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-05 11:26:09,867 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1500(Long), 1(Long)
+2019-05-05 11:26:09,909 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:26:09,910 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-05-05 11:26:09,912 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 5000.0(Double), 1(Integer), 0(Integer), 2019-05-05 11:26:09.91(Timestamp)
+2019-05-05 11:26:09,913 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:26:09,914 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-05 11:26:09,915 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1501(Long), 1(Long)
+2019-05-05 11:26:09,916 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:26:09,917 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-05-05 11:26:09,918 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 5000.0(Double), 1(Integer), 0(Integer), 2019-05-05 11:26:09.917(Timestamp)
+2019-05-05 11:26:09,919 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:26:09,919 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-05 11:26:09,919 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1502(Long), 1(Long)
+2019-05-05 11:26:09,923 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:26:09,923 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-05-05 11:26:09,925 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 5000.0(Double), 1(Integer), 0(Integer), 2019-05-05 11:26:09.923(Timestamp)
+2019-05-05 11:26:09,925 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:26:09,926 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-05 11:26:09,927 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1503(Long), 1(Long)
+2019-05-05 11:26:09,929 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:26:09,970 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-05-05 11:26:09,971 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 5000.0(Double), 1(Integer), 0(Integer), 2019-05-05 11:26:09.97(Timestamp)
+2019-05-05 11:26:09,972 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:26:09,974 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-05 11:26:09,975 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1504(Long), 1(Long)
+2019-05-05 11:26:09,978 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:26:09,979 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-05-05 11:26:09,981 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 5000.0(Double), 1(Integer), 0(Integer), 2019-05-05 11:26:09.979(Timestamp)
+2019-05-05 11:26:09,982 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 11:26:09,983 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_order (user_id,order_id,goods_id) values (?,?,?) 
+2019-05-05 11:26:09,984 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1505(Long), 1(Long)
+2019-05-05 11:29:26,326 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 23864 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-05-05 11:29:26,329 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-05 11:29:26,330 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

@@ -1,0 +1,10 @@
+2019-05-06 10:21:12,739 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-06 10:21:12,746 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into miaosha_user (nickname,password,register_date) values (?,?,?) 
+2019-05-06 10:21:12,747 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18292953467(String), 94f9fd48c372bf58f469aa0e4e8b3d66(String), 2019-05-06 10:21:12.746(Timestamp)
+2019-05-06 10:21:12,849 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-06 10:21:19,266 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id,nickname,password,salt,head,register_date as registerDate, last_logindate as lastLoginDate,login_count as loginCount from miaosha_user where nickname=?; 
+2019-05-06 10:21:19,269 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18292953467(String)
+2019-05-06 10:21:19,272 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-06 10:22:49,377 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 10232 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-05-06 10:22:49,380 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-06 10:22:49,381 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

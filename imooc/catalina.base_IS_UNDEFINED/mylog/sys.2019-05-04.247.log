@@ -1,0 +1,20 @@
+2019-05-04 17:51:37,412 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-04 17:51:37,427 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-04 17:51:37,431 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from goods 
+2019-05-04 17:51:37,432 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-04 17:51:37,434 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-04 17:51:37,439 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=? where goods_id=? 
+2019-05-04 17:51:37,440 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer), 1(Long)
+2019-05-04 17:51:37,478 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-04 17:51:37,478 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=? where goods_id=? 
+2019-05-04 17:51:37,479 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer), 2(Long)
+2019-05-04 17:51:37,517 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-04 17:51:37,518 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: delete from order_info 
+2019-05-04 17:51:37,518 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-04 17:51:37,552 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-04 17:51:37,552 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: delete from miaosha_order 
+2019-05-04 17:51:37,553 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-04 17:51:37,568 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-04 17:51:48,322 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 12848 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-05-04 17:51:48,325 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-04 17:51:48,326 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

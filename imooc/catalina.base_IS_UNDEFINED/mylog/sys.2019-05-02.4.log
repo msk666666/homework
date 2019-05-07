@@ -1,0 +1,12 @@
+2019-05-02 19:15:01,617 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 8.579 seconds (JVM running for 11.306)
+2019-05-02 19:16:51,837 INFO (MQSender.java:41)- send headers message:hello imooc
+2019-05-02 19:17:31,844 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 14780 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-05-02 19:17:31,848 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-02 19:17:31,848 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-02 19:17:38,588 INFO (MQReceiver.java:36)- headers queue message:[B@274e97b1
+2019-05-02 19:17:38,811 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 7.819 seconds (JVM running for 8.913)
+2019-05-02 19:18:13,539 INFO (MQSender.java:41)- send headers message:hello imooc
+2019-05-02 19:18:13,551 INFO (MQReceiver.java:36)- headers queue message:[B@34048623
+2019-05-02 19:18:46,604 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 3776 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-05-02 19:18:46,608 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-02 19:18:46,608 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

@@ -1,0 +1,12 @@
+2019-05-05 15:11:23,409 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 15:11:23,416 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=? where goods_id=? 
+2019-05-05 15:11:23,416 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer), 2(Long)
+2019-05-05 15:11:23,437 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 15:11:23,444 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: delete from order_info 
+2019-05-05 15:11:23,445 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-05 15:11:23,465 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 15:11:23,466 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: delete from miaosha_order 
+2019-05-05 15:11:23,466 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-05 15:11:23,492 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-05 15:11:40,882 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id,nickname,password,salt,head,register_date as registerDate, last_logindate as lastLoginDate,login_count as loginCount from miaosha_user where nickname=?; 
+2019-05-05 15:11:40,885 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 13152089953(String)

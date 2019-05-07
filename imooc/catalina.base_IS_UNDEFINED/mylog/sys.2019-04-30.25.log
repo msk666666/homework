@@ -1,0 +1,8 @@
+2019-04-30 09:38:02,902 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-04-30 09:38:02,910 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-04-30 09:38:02,917 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-04-30 09:39:41,474 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 13660 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-04-30 09:39:41,478 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-30 09:39:41,479 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-04-30 09:39:47,211 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.226 seconds (JVM running for 6.939)
+2019-04-30 09:40:51,400 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id 

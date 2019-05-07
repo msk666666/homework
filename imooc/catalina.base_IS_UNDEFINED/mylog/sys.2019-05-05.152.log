@@ -1,0 +1,13 @@
+2019-05-05 15:17:47,011 INFO (OrderController.java:35)- **************1554
+2019-05-05 15:17:47,020 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from order_info where id=? 
+2019-05-05 15:17:47,022 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1554(Long)
+2019-05-05 15:17:47,025 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 15:17:47,026 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 15:17:47,026 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 15:17:47,028 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 15:21:56,941 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id 
+2019-05-05 15:21:56,943 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-05 15:21:56,947 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-05 15:21:56,950 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from goods 
+2019-05-05 15:21:56,950 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-05 15:21:56,952 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2

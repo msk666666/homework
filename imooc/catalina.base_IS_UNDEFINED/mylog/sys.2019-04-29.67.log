@@ -1,0 +1,8 @@
+2019-04-29 12:51:04,794 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 4.956 seconds (JVM running for 5.678)
+2019-04-29 12:55:39,616 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 19032 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-04-29 12:55:39,619 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 12:55:39,620 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-04-29 12:55:43,896 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 4.722 seconds (JVM running for 5.438)
+2019-04-29 12:57:12,842 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 5644 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-04-29 12:57:12,846 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 12:57:12,846 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

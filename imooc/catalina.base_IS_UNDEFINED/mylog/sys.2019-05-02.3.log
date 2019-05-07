@@ -1,0 +1,11 @@
+2019-05-02 13:52:18,626 INFO (MQReceiver.java:27)- topic queue1 message:hello imooc1
+2019-05-02 14:09:33,039 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 1048 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-05-02 14:09:33,043 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-02 14:09:33,044 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-02 14:09:38,118 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 5.725 seconds (JVM running for 6.472)
+2019-05-02 14:10:07,724 INFO (MQSender.java:34)- hello imooc
+2019-05-02 14:10:07,753 INFO (MQReceiver.java:27)- topic queue1 message:hello imooc
+2019-05-02 14:10:07,753 INFO (MQReceiver.java:31)- topic queue2 message:hello imooc
+2019-05-02 19:14:54,410 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 15636 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-05-02 19:14:54,414 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-02 19:14:54,414 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

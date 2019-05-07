@@ -1,0 +1,12 @@
+2019-05-04 15:31:20,459 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=? where goods_id=? 
+2019-05-04 15:31:20,469 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer), 1(Long)
+2019-05-04 15:31:20,534 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-04 15:31:20,534 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=? where goods_id=? 
+2019-05-04 15:31:20,535 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer), 2(Long)
+2019-05-04 15:31:20,627 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-04 15:31:20,628 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: delete from order_info 
+2019-05-04 15:31:20,628 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-04 15:31:20,710 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-04 15:31:20,710 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: delete from miaosha_order 
+2019-05-04 15:31:20,711 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-04 15:31:20,766 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1

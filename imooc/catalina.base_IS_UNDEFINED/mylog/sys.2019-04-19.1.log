@@ -1,0 +1,8 @@
+2019-04-19 15:39:08,940 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 5.195 seconds (JVM running for 5.93)
+2019-04-19 16:02:20,620 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 20140 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-04-19 16:02:20,623 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-19 16:02:20,625 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-04-19 16:02:24,943 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 4.818 seconds (JVM running for 5.69)
+2019-04-19 16:02:32,647 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id,nickname,password,salt,head,register_date as registerDate, last_logindate as lastLoginDate,login_count as loginCount from miaosha_user where nickname=?; 
+2019-04-19 16:02:32,667 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 13152089953(String)
+2019-04-19 16:02:32,693 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

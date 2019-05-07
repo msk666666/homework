@@ -1,0 +1,11 @@
+2019-04-29 16:08:44,270 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-04-29 16:08:44,272 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from order_info where user_id=? and goods_id=? 
+2019-04-29 16:08:44,286 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-04-29 16:08:44,287 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-04-29 16:08:44,289 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from order_info where user_id=? and goods_id=? 
+2019-04-29 16:08:44,288 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-04-29 16:08:44,290 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-04-29 16:08:44,294 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-04-29 16:09:29,449 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 8600 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-04-29 16:09:29,452 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 16:09:29,453 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

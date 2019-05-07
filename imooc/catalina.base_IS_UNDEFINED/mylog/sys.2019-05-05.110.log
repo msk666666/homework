@@ -1,0 +1,23 @@
+2019-05-05 11:58:46,534 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 11:58:46,421 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 11:58:46,408 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 11:58:46,375 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 11:58:46,551 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 11:58:46,562 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 11:58:46,616 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 11:58:46,616 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 11:58:46,551 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 11:58:46,617 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 11:58:46,549 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 11:58:46,644 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 11:58:46,653 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 11:58:46,653 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 11:58:46,655 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 11:58:46,686 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 11:58:46,655 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 11:58:46,687 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 11:58:46,735 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 11:58:46,737 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 11:58:46,737 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 11:58:46,739 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 11:58:46,739 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

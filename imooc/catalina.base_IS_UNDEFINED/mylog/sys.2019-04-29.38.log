@@ -1,0 +1,11 @@
+2019-04-29 11:19:55,448 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 5.03 seconds (JVM running for 6.027)
+2019-04-29 11:20:04,429 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-04-29 11:20:04,449 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-04-29 11:20:04,474 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-04-29 11:25:37,271 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 18496 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-04-29 11:25:37,275 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 11:25:37,277 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-04-29 11:25:41,634 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 4.834 seconds (JVM running for 5.63)
+2019-04-29 11:27:08,653 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 15024 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-04-29 11:27:08,656 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 11:27:08,658 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

@@ -1,0 +1,8 @@
+2019-05-04 17:41:01,426 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id 
+2019-05-04 17:41:01,468 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-04 17:41:01,491 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-04 17:41:03,851 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 11.389 seconds (JVM running for 12.633)
+2019-05-04 17:41:03,938 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-04 17:41:03,943 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-04 17:41:03,949 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-04 17:41:03,952 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 

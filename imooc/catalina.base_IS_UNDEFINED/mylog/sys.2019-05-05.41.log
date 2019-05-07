@@ -1,0 +1,24 @@
+2019-05-05 10:53:17,601 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 10:53:17,645 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:53:17,644 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:53:17,701 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:53:17,701 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:53:17,643 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:53:17,703 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 10:53:17,705 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 10:53:17,639 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:53:17,701 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 10:53:17,601 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 10:53:17,694 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 10:53:17,692 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:53:17,710 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 10:53:17,707 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select g.*,mg.miaosha_price,mg.stock_count,mg.start_date,mg.end_date from miaosha_goods mg left join goods g on mg.goods_id=g.id where g.id=? 
+2019-05-05 10:53:17,737 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:53:17,737 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-05 10:53:17,738 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 10:53:17,738 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 10:53:17,739 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 10:53:17,740 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-05 10:55:46,663 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-TGIQ28G with PID 7924 (C:\Users\WIN10\Desktop\imooc\target\classes started by WIN10 in C:\Users\WIN10\Desktop\imooc)
+2019-05-05 10:55:46,667 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-05 10:55:46,667 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

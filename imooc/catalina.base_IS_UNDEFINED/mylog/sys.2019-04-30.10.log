@@ -1,0 +1,8 @@
+2019-04-30 09:09:35,451 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-04-30 09:09:35,451 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-04-30 09:09:35,518 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-04-30 09:09:35,519 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-04-30 09:09:35,520 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 3762.0(Double), 1(Integer), 0(Integer), 2019-04-30 09:09:35.519(Timestamp)
+2019-04-30 09:09:35,535 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-04-30 09:09:35,536 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into order_info(user_id,goods_id,delivery_addr_id,goods_name,goods_count,goods_price, order_channel,status,create_date) values (?,?,?,?,?,?,?,?, ?) 
+2019-04-30 09:09:35,537 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long), 1(Long), iphoneX(String), 1(Integer), 3762.0(Double), 1(Integer), 0(Integer), 2019-04-30 09:09:35.536(Timestamp)

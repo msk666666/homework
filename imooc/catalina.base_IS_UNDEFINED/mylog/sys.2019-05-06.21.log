@@ -1,0 +1,8 @@
+2019-05-06 10:41:37,520 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18292953467(String), c5238144341f62c6afd57c0d08922a94(String), 2019-05-06 10:41:37.519(Timestamp)
+2019-05-06 10:41:37,679 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-06 10:41:40,809 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id,nickname,password,salt,head,register_date as registerDate, last_logindate as lastLoginDate,login_count as loginCount from miaosha_user where nickname=?; 
+2019-05-06 10:41:40,811 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18292953467(String)
+2019-05-06 10:41:40,814 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-06 10:42:20,202 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id,nickname,password,salt,head,register_date as registerDate, last_logindate as lastLoginDate,login_count as loginCount from miaosha_user where nickname=?; 
+2019-05-06 10:42:20,316 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18292953467(String)
+2019-05-06 10:42:20,318 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

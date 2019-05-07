@@ -1,0 +1,16 @@
+2019-05-04 15:49:22,388 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: delete from order_info 
+2019-05-04 15:49:22,395 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-04 15:49:22,396 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0
+2019-05-04 15:49:22,396 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: delete from miaosha_order 
+2019-05-04 15:49:22,397 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-04 15:49:22,397 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0
+2019-05-04 15:49:52,146 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from miaosha_order where user_id=? and goods_id=? 
+2019-05-04 15:49:52,147 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-05-04 15:49:52,148 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-04 15:49:52,148 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from miaosha_order where user_id=? and goods_id=? 
+2019-05-04 15:49:52,150 INFO (MQSender.java:23)- Send{"goodsId":1,"mobileUser":{"head":"ll","id":1,"lastLoginDate":1554168759000,"loginCount":1,"nickname":"13152089953","password":"c5238144341f62c6afd57c0d08922a94","registerDate":1554168755000,"salt":"1a2b3c4d"}}
+2019-05-04 15:49:52,150 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-05-04 15:49:52,151 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from miaosha_order where user_id=? and goods_id=? 
+2019-05-04 15:49:52,152 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-04 15:49:52,152 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-05-04 15:49:52,152 INFO (MQSender.java:23)- Send{"goodsId":1,"mobileUser":{"head":"ll","id":1,"lastLoginDate":1554168759000,"loginCount":1,"nickname":"13152089953","password":"c5238144341f62c6afd57c0d08922a94","registerDate":1554168755000,"salt":"1a2b3c4d"}}

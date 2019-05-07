@@ -1,0 +1,12 @@
+2019-05-03 08:38:48,916 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-05-03 08:38:49,454 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-03 08:38:49,455 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update miaosha_goods set stock_count=stock_count-1 where goods_id=? and stock_count>0 
+2019-05-03 08:38:49,455 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-03 08:38:49,348 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-03 08:38:49,474 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-03 08:38:49,345 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-03 08:38:49,219 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
+2019-05-03 08:38:48,956 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-03 08:38:48,920 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2019-05-03 08:38:48,919 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-03 08:38:48,916 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long), 1(Long)
